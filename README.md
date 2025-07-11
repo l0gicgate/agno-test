@@ -62,3 +62,26 @@ Agno will help you build best-in-class, highly-performant agentic systems, savin
 - Built-in Memory & Session Storage: Agents come with built-in Storage & Memory drivers that give your Agents long-term memory and session storage.
 - Structured Outputs: Agno Agents can return fully-typed responses using model provided structured outputs or json_mode.
 - Pre-built FastAPI Routes: After building your Agents, serve them using pre-built FastAPI routes. 0 to production in minutes.
+
+## Supported Features
+- [x] Agent Coordination
+- [x] Reasoning
+- [x] Memory
+- [x] Streaming
+- [x] Tracing
+- [x] Monitoring
+- [x] Human-in-the-Loop
+- [x] Workflows
+- [x] Scheduling
+- [x] HTTP/API Integration
+- [x] WebSocket Connections
+- [x] Native MCP Support
+- [x] Context/Short-term Memory
+- [x] Long-term Memory Management
+- [x] Tool Calls
+- [x] Tool Hooks (for custom logging, etc.)
+- [x] Structured Outputs
+- [x] Agentic Search
+- [x] Multi-Modal
+- [x] Multi-Agent Architecture
+- [x] Pre-built FastAPI Routes
