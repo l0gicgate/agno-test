@@ -23,4 +23,6 @@ export OPENAI_API_KEY=sk-***
 7. Open [http://localhost:3000](http://localhost:3000) with your browser
 
 ## Agno Resources
-- https://docs.agno.com/agent-ui/introduction#connecct-to-local-agents
+- https://github.com/agno-agi/agno
+- https://github.com/agno-agi/agent-ui
+- https://docs.agno.com/agent-ui/introduction#connect-to-local-agents
