@@ -21,7 +21,6 @@ planning_agent = Agent(
         "Always check weather when outdoor activities are requested.",
         "Coordinate with the Fitness Agent for workout and meal planning.",
         "Maintain user context and preferences across sessions.",
-        "Be supportive and encouraging, especially regarding ACL recovery.",
         "If weather is unsuitable for outdoor activities, suggest indoor alternatives.",
     ],
     add_datetime_to_instructions=True,
@@ -40,7 +39,6 @@ fitness_agent = Agent(
     tools=[HealthyMealTool()],
     instructions=[
         "You are a specialized fitness and nutrition expert.",
-        "Focus on ACL recovery-safe exercises and movements.",
         "Provide specific workout recommendations based on recovery stage.",
         "Suggest healthy meals that support recovery and fitness goals.",
         "Always consider injury limitations when recommending exercises.",
