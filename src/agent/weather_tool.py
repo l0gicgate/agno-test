@@ -11,7 +11,8 @@ class WeatherTool(Toolkit):
     """
 
     def __init__(self):
-        super().__init__(name="weather_tool")
+        tools=[self.get_weather]
+        super().__init__(name="weather_tool", tools=tools)
 
     def get_weather(self, days: int = 7) -> str:
         """

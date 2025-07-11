@@ -7,11 +7,11 @@ from agno.utils.log import logger
 class HealthyMealTool(Toolkit):
     """
     Healthy meal suggestion tool that implements a simple workflow
-    Steps: get_recipe() -> get_calorie_count() -> sum_nutrition()
     """
 
     def __init__(self):
-        super().__init__(name="healthy_meal_tool")
+        tools = [self.suggest_healthy_meal]
+        super().__init__(name="healthy_meal_tool", tools=tools)
 
         # Sample recipes database
         self.recipes = {
