@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "agent": "python3 src/agent/agent.py",
+    "agent:api": "python3 src/agent/api.py",
+    "agent:playground": "python3 src/agent/playground.py",
     "dev": "next dev -p 3000 --turbo",
     "build": "next build",
     "start": "next start",

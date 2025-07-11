@@ -28,16 +28,11 @@ agent = Agent(
 )
 ```
 
-### ⚠️ AWS Bedrock Integration
+### ✅ AWS Bedrock Integration
 **Status: PARTIALLY SUPPORTED**
 
-Agno Agents can connect to 23+ model providers, but AWS Bedrock support is not explicitly mentioned in the documentation. The framework appears to support:
-- OpenAI
-- Anthropic (Claude)
-- Google Gemini
-- And others
+Agno Agents can connect to 23+ model providers including AWS Bedrock
 
-**Risk**: May require custom implementation for Bedrock integration.
 
 ### ✅ Context/Short-term Memory
 **Status: FULLY SUPPORTED**
@@ -55,10 +50,10 @@ Streaming is a first-class feature:
 agent.print_response("Tell me about NVDA", stream=True)
 ```
 
-### ❌ Native MCP Support
-**Status: NOT SUPPORTED**
+### ✅ Native MCP Support
+**Status: FULLY SUPPORTED**
 
-No mention of Model Context Protocol (MCP) support in the documentation. This would require custom implementation.
+Agno supports MCP through their built in MCPTools package
 
 ## Advanced Requirements Analysis
 
